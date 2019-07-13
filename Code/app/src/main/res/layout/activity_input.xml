@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport = "true">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".InputActivity"
+            android:layout_margin="8dp">
+
+        <!-- First page of questions -->
+        <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Q1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="20sp"
+                android:text="How often do you pay your household bills?" />
+
+            <Spinner
+                android:id="@+id/billsSpinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dropDown"
+                android:layout_marginBottom="15sp"/>
+
+            <TextView
+                android:id="@+id/Q2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="20sp"
+                android:text="How much do you owe on your household bills?"/>
+
+            <Spinner
+                android:id="@+id/amountOwedHousehold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dropDown"/>
+
+            <TextView
+                android:id="@+id/Q3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="20sp"
+                android:text="Select the type of credit you have"/>
+
+            <CheckBox
+                android:id="@+id/mortgage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mortgage"/>
+
+            <CheckBox
+                android:id="@+id/creditCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/creditCard"/>
+
+            <CheckBox
+                android:id="@+id/carLoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/autoLoan"/>
+
+            <CheckBox
+                android:id="@+id/creditUnion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/creditUnion"/>
+
+            <CheckBox
+                android:id="@+id/paydayLoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/paydayLoan"/>
+
+            <TextView
+                android:id="@+id/Q4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="20sp"
+                android:text="How much do you owe on your credit?"/>
+
+            <Spinner
+                android:id="@+id/paymentSpinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dropDown"/>
+
+            <TextView
+                android:id="@+id/Q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textSize="20sp"
+                android:text="How often do you pay your credits?" />
+
+            <Spinner
+                android:id="@+id/creditSpinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dropDown"/>
+
+            <TextView
+                android:id="@+id/Q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="20sp"
+                android:text="What are your monthly credit card repayments?" />
+
+            <Spinner
+                android:id="@+id/creditCardSpinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dropDown"/>
+
+            <TextView
+                android:id="@+id/Q7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="20sp"
+                android:text="How many times have you applied for credit" />
+
+            <Spinner
+                android:id="@+id/creditApplication"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dropDown"/>
+
+            <TextView
+                android:id="@+id/Q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="20sp"
+                android:text="What is your monthly salary?" />
+
+            <Spinner
+                android:id="@+id/salary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dropDown"
+                android:layout_marginBottom="15sp"/>
+
+            <Button
+                android:id="@+id/calculateScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculate Score" />
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

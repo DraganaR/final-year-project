@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#004c40</color>
+    <color name="colorButtons">#00796b</color>
+    <color name="blue">#0000ff</color>
+    <color name="dropDown">#e6e6e6</color>
+    <!--<color name="pointStart">#ff0000</color>
+    <color name="pointEnd">#0013FF</color>-->
+    <color name="excellent">#00ff00</color>
+    <color name="good">#00cc00</color>
+    <color name="fair">#ffff00</color>
+    <color name="poor">#ff5600</color>
+    <color name="bad">#ff0000</color>
+    <color name="tip1">#00332e</color>
+    <color name="tip2">#004d45</color>
+    <color name="tip3">#00665c</color>
+    <color name="tip4">#008073</color>
+    <color name="tip5">#00998a</color>
+    <color name="tip6">#00b3a1</color>
+    <color name="tip7">#00ccb8</color>
+    <color name="tip8">#00e6cf</color>
+    <color name="tip9">#00ffe5</color>
+    <color name="tip10">#1affe8</color>
+    <color name="white">#ffffff</color>
+</resources>
